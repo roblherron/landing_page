@@ -17,6 +17,11 @@ body {
 
 #time {
   font-size: 8rem;
+  display: inline-block
+}
+#pmOrAm {
+  font-size: 6rem;
+  display: inline-block
 }
 #exclamation {
   margin-left: -0.3rem;
@@ -31,6 +36,9 @@ h2 {
   opacity: 0.6;
 }
 
+div {
+  white-space: nowrap;
+}
 @media (max-width: 700px) {
   #time {
     font-size: 6rem;
